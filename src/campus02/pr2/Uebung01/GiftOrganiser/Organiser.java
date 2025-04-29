@@ -53,6 +53,7 @@ public class Organiser {
         }
 
         ArrayList<Person> bthdBefore = organiserService.birthdayBefore(LocalDate.of(2025, 12, 24));
+
         System.out.println("These people still have birthday before Christmas: ");
         for (Person person: bthdBefore) {
             System.out.println(person.getName());
